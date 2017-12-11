@@ -12,6 +12,8 @@
 */
 
 Route::get('/','HomeController@index');
+Route::get('/login','AuthController@login');
+
 
 // Route::group(['prefix' => 'itemgroups'], function(){
    
